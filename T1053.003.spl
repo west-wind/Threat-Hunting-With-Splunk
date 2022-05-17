@@ -1,0 +1,9 @@
+index=hosts sourcetype=linux_messages process=CROND 
+| rex field=_raw "((crond|CROND)\D[0-9]{4,5}\D:\s\D[a-z]{3,}\D\s)(?<action>\w+)\s\((?<CronCommand>.*(?=\)))"
+| where isnotnull(action)
+| search action=CMD
+| rex field=CronCommand "(?<url>https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&\/=]*))" 
+| where isnotnull(url)
+| dedup host url
+| search NOT url="http://127.0.0.1*"
+| table _time host action CronCommand  url 
