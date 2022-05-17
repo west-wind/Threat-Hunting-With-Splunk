@@ -1,5 +1,5 @@
 # Threat Hunting with Splunk
-Awesome Splunk SPL queries that can be used to detect the latest vulnerability exploitation attempts &amp; subsequent compromise.
+Awesome Splunk SPL queries that can be used to detect the latest vulnerability exploitation attempts &amp, threat hunt for MITRE ATT&CK TTPs.
 
 ## MITRE ATT&CK TTP & Detection Analytics
 
