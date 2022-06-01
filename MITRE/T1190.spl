@@ -1,0 +1,2 @@
+index=hosts sourcetype="linux:audit" ((type=SYSCALL OR type=EXECVE) AND euid=33) OR (type=PATH AND (name="/var/www/html" OR name=*.php))
+| table _time host type syscall euid pid ppid comm
