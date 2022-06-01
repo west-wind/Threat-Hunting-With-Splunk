@@ -6,6 +6,7 @@ Awesome Splunk SPL queries that can be used to detect the latest vulnerability e
 | TTP | MITRE ATT&CK | Detection SPL |
 |----------|:-------------:|------:|
 | T1053.003 |  [Scheduled Task/Job: Cron](https://attack.mitre.org/techniques/T1053/003/) | [T1053.003 Detection SPL](https://github.com/west-wind/Threat-Hunting-With-Splunk/blob/main/MITRE/T1053.003.spl) |
+| T1190 |  [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/) | [T1190 Detection SPL](https://github.com/west-wind/Threat-Hunting-With-Splunk/blob/main/MITRE/T1190.spl) |
 
 
 ## Vulnerabilities & Detection Analytics
