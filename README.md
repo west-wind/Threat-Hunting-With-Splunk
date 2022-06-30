@@ -17,3 +17,8 @@ Awesome Splunk SPL queries that can be used to detect the latest vulnerability e
 | CVE-2022-22965 |  [CVE-2022-22965 Advisory](https://github.com/advisories/GHSA-36p3-wjmg-h94x) | [CVE-2022-22965 Detection SPL](https://github.com/west-wind/Spring4Shell-Detection) |
 | CVE-2022-22963 |  [CVE-2022-22963 Advisory](https://nvd.nist.gov/vuln/detail/CVE-2022-22963) | [CVE-2022-22963 Detection SPL](https://github.com/west-wind/Spring4Shell-Detection/blob/main/README.md#detection-for-cve-2022-22963-not-spring4shell) |
 
+## Malware Detection Analytics
+
+| Malware | Reference | Detection SPL |
+|----------|:-------------:|------:|
+| BPFDoor |  [BPFDoor ATT&CK Community Presentation](https://github.com/CiscoCXSecurity/presentations/blob/master/Auditd%20for%20the%20newly%20threatened.pdf) | [BPFDoor Detection SPL](https://github.com/west-wind/Threat-Hunting-With-Splunk/blob/main/Malware-Backdoors/BPFDoor) |
