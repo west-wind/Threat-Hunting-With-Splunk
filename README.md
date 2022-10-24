@@ -13,6 +13,7 @@ Awesome Splunk SPL queries that can be used to detect the latest vulnerability e
 
 | Vulnerability | Advisory | Detection SPL |
 |----------|:-------------:|------:|
+| CVE-2022-42889 |  [CVE-2022-42889 Advisory](https://nvd.nist.gov/vuln/detail/CVE-2022-42889) | [Text4Shell Detection SPL](https://github.com/west-wind/CVE-2022-42889#detection-splunk-query) |
 | CVE-2022-41082 |  [CVE-2022-41082 Advisory](https://www.microsoft.com/security/blog/2022/09/30/analyzing-attacks-using-the-exchange-vulnerabilities-cve-2022-41040-and-cve-2022-41082/) | [Microsoft Exchange 0day Detection SPL](https://github.com/west-wind/Threat-Hunting-With-Splunk/blob/main/CVE/CVE-2022-41082) |
 | CVE-2022-22954 |  [CVE-2022-22954 Advisory](https://github.com/advisories/GHSA-q7xc-35g4-g566) | [CVE-2022-22954 Detection SPL](https://github.com/west-wind/Threat-Hunting-With-Splunk/blob/main/CVE/CVE-2022-22954) |
 | CVE-2022-22965 |  [CVE-2022-22965 Advisory](https://github.com/advisories/GHSA-36p3-wjmg-h94x) | [CVE-2022-22965 Detection SPL](https://github.com/west-wind/Spring4Shell-Detection) |
