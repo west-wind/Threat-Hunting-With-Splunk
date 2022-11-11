@@ -26,3 +26,4 @@ Awesome Splunk SPL queries that can be used to detect the latest vulnerability e
 | Malware | Reference | Detection SPL |
 |----------|:-------------:|------:|
 | BPFDoor |  [BPFDoor ATT&CK Community Presentation](https://github.com/CiscoCXSecurity/presentations/blob/master/Auditd%20for%20the%20newly%20threatened.pdf) | [BPFDoor Detection SPL](https://github.com/west-wind/Threat-Hunting-With-Splunk/blob/main/Malware-Backdoors/BPFDoor) |
+| VIRTUALPITA & VIRTUALPIE |  [Mandiant Report - Investigating Novel Malware Persistence Within ESXi Hypervisors](https://www.mandiant.com/resources/blog/esxi-hypervisors-malware-persistence) | [Detection SPL](https://github.com/west-wind/Threat-Hunting-With-Splunk/blob/main/Malware-Backdoors/VirtualPITA%20&%20VirtualPIE) |
