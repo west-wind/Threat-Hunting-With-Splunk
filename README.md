@@ -20,7 +20,7 @@ Awesome Splunk SPL queries that can be used to detect the latest vulnerability e
 | CVE-2022-22963 |  [CVE-2022-22963 Advisory](https://nvd.nist.gov/vuln/detail/CVE-2022-22963) | [CVE-2022-22963 Detection SPL](https://github.com/west-wind/Spring4Shell-Detection/blob/main/README.md#detection-for-cve-2022-22963-not-spring4shell) |
 | CVE-2022-2185 |  [CVE-2022-2185 Advisory](https://nvd.nist.gov/vuln/detail/CVE-2022-2185) | [GitLab Malicious Project Upload Detection SPL](https://github.com/west-wind/Threat-Hunting-With-Splunk/blob/main/CVE/CVE-2022-2185) |
 | CVE-2022-33891 |  [CVE-2022-33891 Advisory](https://nvd.nist.gov/vuln/detail/CVE-2022-33891) | [Apache Spark Command Injection Detection SPL](https://github.com/west-wind/CVE-2022-33891) |
-| CVE-2026-12569 |  [CVE-2026-12569 Advisory](https://www.ptc.com/en/about/trust-center/advisory-center/active-advisories/windchill-flexplm-rce-vulnerability) | [Windchill RCE Detection SPL](https://github.com/west-wind/Threat-Hunting-With-Splunk/blob/main/CVE/CVE-2026-12569.md) |
+| CVE-2026-12569 |  [CVE-2026-12569 Advisory](https://www.ptc.com/en/about/trust-center/advisory-center/active-advisories/windchill-flexplm-rce-vulnerability) | [PTC Windchill and FlexPLM RCE/JSP Webshell Detection SPL](https://github.com/west-wind/Threat-Hunting-With-Splunk/blob/main/CVE/CVE-2026-12569.md) |
 
 ## Malware Detection Analytics
 
